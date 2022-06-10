@@ -697,15 +697,17 @@ a:focus {
 
 .portfolio .portfolio-text {
     position: relative;
-    height: 60px;
+    height: 200px;
     width: calc(100% - 30px);
     margin: -30px 15px 30px 15px;
-    display: flex;
+    padding: 5px;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     background: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
 }
+
 
 .portfolio .portfolio-text h3 {
     width: calc(100% - 70px);
